@@ -1,0 +1,25 @@
+\documentclass[a4paper,14pt]{extreport}
+\usepackage{pdfpages}
+
+\include{(00)preamble}
+
+\begin{document}
+    \includepdf[pages=1]{ИУ7-52Б-Пантелеев-Василий_title.pdf}
+    \setcounter{page}{3}
+    \include{(02)abstract}
+
+    \renewcommand{\contentsname}{СОДЕРЖАНИЕ} % Переименовать table of contents
+    \tableofcontents
+    \include{(03)definitions}
+    \include{(04)abbreviation}
+    \include{(05)intro}
+    \include{(06)analitic}
+    \include{(07)task}
+    \include{(08)methods}
+    \include{(09)compraison}
+    \include{(10)outro}
+    \include{library}
+    \include{(11)appendix}
+
+
+\end{document}
